@@ -1,8 +1,3 @@
 ## Reflections on REST
 
-This paper is an update on a paper describing the REST Architecture Style after 17 years of practice.
-
-Based on what you learned in this class, your personal experience, and reading this paper, briefly describe why you think this architecture style/patten has stood the test of time.  I would argue its still one of the most popular API architectures in 2022, and very few things have this long of a lifespan in computing. 
-
-
-file:///C:/Users/austi/Downloads/reflections-on-rest.pdf
+For me, this biggest reason I think it has stood the test of time is because of how adabtable it is to different environments and teams. In the 2 professtional jobs I have had, they were both based on the REST principles, but were both implemented very differently because different things were important to the teams I was on. Even in this paper we see other architecture styles be made with REST as the base, but adding to it for what is most important to the developers; for example with security being the main focus COAST was created. REST has such good high level ideas and patterns that can be followed and implemented in so many different ways that helps it remain so important of a architecture pattern to this day.
