@@ -1,8 +1,9 @@
-# ADR N: brief decision title 
-Describe here the forces that influence the design decision, including technological, cost-related, and project local. 
-
+# ADR 4: brief decision title 
 ## Decision 
 Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
+
+## Background
+Describe here the forces that influence the design decision, including technological, cost-related, and project local. 
 
 ## Rationale 
 Describe here the rationale for the design decision. Also indicate the rationale for significant *rejected* alternatives. This section may also indicate assumptions, constraints, requirements, and results of evaluations and experiments.
