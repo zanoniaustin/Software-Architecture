@@ -1,15 +1,15 @@
 # ADR 2: C# as Primary Language
-Describe here the forces that influence the design decision, including technological, cost-related, and project local. 
-
 ## Decision 
-Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
+There are two languages supported for the Unity Game Engine during run time, C++ and C#. We will be using C# as the coding language for the Unity Gaming Engine.
+
+## Background
+Our organization is still small and looking for new hires. Using a language that is easier to learn and popular amoung developers is our main objective.
 
 ## Rationale 
-Describe here the rationale for the design decision. Also indicate the rationale for significant *rejected* alternatives. This section may also indicate assumptions, constraints, requirements, and results of evaluations and experiments.
+Both C++ and C# are both very popular for languages for game development. C++ allows for a much more optimization and programming of operating systems for better control over the hardware, but for such a small game this level of fine tuning in not needed at this time. C# is easy to learn and widely used for the development in the Unity Gaming Engine, which will also provide a scripting API that is built around C#.
 
 ## Status
-[Proposed | Accepted | Deprecated | Superseded]
-If deprecated, indicate why. If superseded, include a link to the new ADR. 
+Both languages provide unique capabilites, and it is decided we will be using C# as our development language in the Unity Gaming Engine.
 
 ## Consequences
-Describe here the resulting context, after applying the decision. All consequences should be listed, not just the "positive" ones. 
+Potential slower run time as C# uses the CLR(common language runtime). Automatic garbage collection.
