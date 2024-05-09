@@ -1,4 +1,4 @@
-# ADR 4: brief decision title 
+# ADR 4: Database 
 ## Decision 
 Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
 
