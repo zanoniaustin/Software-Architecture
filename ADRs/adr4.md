@@ -1,16 +1,15 @@
-# ADR 4: Database 
-## Decision 
-Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
-
+# ADR 4: SQLLite Database
 ## Background
-Describe here the forces that influence the design decision, including technological, cost-related, and project local. 
+We are looking for a type of database that is easy to setup and learn, is able to integrate efficiently with the Unity Gaming Engine, and is efficient for a small single player game that will mainly be storing the user's game data.
 
 ## Rationale 
-Describe here the rationale for the design decision. Also indicate the rationale for significant *rejected* alternatives. This section may also indicate assumptions, constraints, requirements, and results of evaluations and experiments.
+Three types of databases were considered for this, NoSQL, MySQL, and SQLLite. The NoSQL database that Unity supports, Firebase, only works for mobile devices. The MySQL database is external from the Unity gaming engine, SQLLite is embedded into the Unity project itself making it more lightweight. MySQL does have a better ability at having more scalability compared to SQLLite. Integrating MySQL into Unity requires adding plugins and asset packages which will add to the complexity, and security will also need to be managed for the database servers by the team.
+
+## Decision 
+We will be moving forward using the SQLLite database for our game. The main reasons is the lightweight simplicity of SQLLite when integrating with the Unity Gaming Engine is better for engineers with less an experience level.
 
 ## Status
-[Proposed | Accepted | Deprecated | Superseded]
-If deprecated, indicate why. If superseded, include a link to the new ADR. 
+Accepted
 
 ## Consequences
-Describe here the resulting context, after applying the decision. All consequences should be listed, not just the "positive" ones. 
+Version control of the database will be challenging since it is integrated into the Unity project. Simple integration of the database into the Unity project.
