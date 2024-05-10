@@ -1,4 +1,6 @@
 # ADR 3: Microsoft PlayFab as Hosting Site
+## Status
+Accepted
 
 ## Background
 When it comes to where we are wanting our game to be hosted there are alot of things to consider. Scalability, are we able to handle large spikes in customers and small amounts while maximizing the financial requirements. Security, how well does the servers handle cyber attacks like DDoS attacks. Speed and simplicity of testing and deploying new versions.
@@ -8,9 +10,6 @@ The two main cloud providers investigated were Amazon GameLift and Microsoft Pla
 
 ## Decision 
 We will be using the Microsoft Play for hosting our game because it requires a lower level of expertise for entry which best supports our new company.
-
-## Status
-It is decided we will be using Microsoft PlayFab as our cloud servers for our game.
 
 ## Consequences
 Vendor lock-in, integration of PlayFab is high so a swap away would require a very large amount of effort. Limited amount of customizing of the servers. 
