@@ -4,7 +4,7 @@
 Being a small indie game developer we are needing a Game Engine that has low startup costs, is easy to learn, and has multi platform capability.
 
 ## Rationale 
-There were many Gaming Engines that were in contention. The two most known engines, and the ones that were the most looked into were Unity and Unreal. These are two of the most used gaming engines for 3D games. Both are well supported with documentation and a community for learning. Unity is known for being easier to learn and has not inital payment required for small games. Unreal requires a flat percent for all profits made from the game.
+The two 3D gaming engines considered are the most well know engines, Unity and Unreal. For cost being a small company our predicted sales should remain in the free or minimal payment category for Unity, while Unreal requires 5% of every sale made. Unity is commonly known for being very easy to learn and has a large community with alot of documentation, Unreal also has a large community, but would require alot more up front training. Both engines support multi platform functionality.
 
 ## Status
 Based on our evaluations into different Gaming Engines, it is decided that we will be using the Unity Gaming Engine.
