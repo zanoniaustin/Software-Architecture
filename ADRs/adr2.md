@@ -1,12 +1,12 @@
 # ADR 2: C# as Primary Language
-## Decision 
-There are two languages supported for the Unity Game Engine during run time, C++ and C#. We will be using C# as the coding language for the Unity Gaming Engine.
-
 ## Background
 Our organization is still small and looking for new hires. Using a language that is easier to learn and popular amoung developers is our main objective.
 
 ## Rationale 
 Both C++ and C# are both very popular for languages for game development. C++ allows for a much more optimization and programming of operating systems for better control over the hardware, but for such a small game this level of fine tuning in not needed at this time. C# is easy to learn and widely used for the development in the Unity Gaming Engine. To utilize the scripting API within Unity C# will need to be used.
+
+## Decision 
+There are two languages supported for the Unity Game Engine during run time, C++ and C#. We will be using C# as the coding language for the Unity Gaming Engine.
 
 ## Status
 Both languages provide unique capabilites, and it is decided we will be using C# as our development language in the Unity Gaming Engine.
