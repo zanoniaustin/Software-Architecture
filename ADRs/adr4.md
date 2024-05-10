@@ -1,4 +1,7 @@
 # ADR 4: SQLLite Database
+## Status
+Accepted
+
 ## Background
 We are looking for a type of database that is easy to setup and learn, is able to integrate efficiently with the Unity Gaming Engine, and is efficient for a small single player game that will mainly be storing the user's game data.
 
@@ -7,9 +10,6 @@ Three types of databases were considered for this, NoSQL, MySQL, and SQLLite. Th
 
 ## Decision 
 We will be moving forward using the SQLLite database for our game. The main reasons is the lightweight simplicity of SQLLite when integrating with the Unity Gaming Engine is better for engineers with less an experience level.
-
-## Status
-Accepted
 
 ## Consequences
 Version control of the database will be challenging since it is integrated into the Unity project. Simple integration of the database into the Unity project.
